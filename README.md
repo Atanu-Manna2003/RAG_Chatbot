@@ -22,7 +22,7 @@ A Retrieval-Augmented Generation (RAG) pipeline that allows users to upload docu
 
 #### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/rag-pipeline.git
+git clone https://github.com/Atanu-Manna2003/RAG_Chatbot.git
 cd rag-pipeline
 
 #### 2️⃣ Create Virtual Environment
