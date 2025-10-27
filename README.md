@@ -12,10 +12,6 @@ A Retrieval-Augmented Generation (RAG) pipeline that allows users to upload docu
 - **Source Attribution**: View which parts of documents were used for answers
 - **Document Management**: Upload, view, and delete documents
 
-## 🏗️ Architecture
-
-
-
 ## 📋 Prerequisites
 
 - Python 3.8 or higher
@@ -53,3 +49,8 @@ GROQ_API_KEY=your_groq_api_key_here
 uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
 
 ✅ Open your browser → http://localhost:8000
+
+# How to run docker file
+# open the docker desktop
+# run this command to pull the image->docker pull atanu200/rag_proj
+# then run the container->docker run -p 8000:8000 atanu200/rag_proj
